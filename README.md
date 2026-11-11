@@ -1,5 +1,5 @@
 # EX No.4.1. CUT SECTION OF SOLIDS
-## DATE:
+## DATE:21-10-2026
 
 ## AIM
 To create the solid model from given drawing and section the solid model
@@ -11,36 +11,46 @@ To create the solid model from given drawing and section the solid model
 4. 2.5 Mbps or faster download; 500 Kbps or faster upload 
 
 ## PROCEDURE:
-1.	Open new file and then select sketch icon.
-2.	Select the plane for sketching. 
-3.	Use sketching features (line, circle, arc, rectangle, polygon, etc.,) to draw the given sketch
+1. Open Autodesk Fusion 360, create a new design, select the Solid workspace and set the measurement units to millimetres (mm). Save the design with a suitable name.
 
-![image](https://user-images.githubusercontent.com/113594316/198825274-c6a8d3ee-fb19-4641-b915-8d2e000c40a8.png)
+2. Select Create Sketch and choose the XY plane. Using the Rectangle tool, draw the main rectangular profile and specify its dimensions as 52 mm × 40 mm.
 
-4.	Use sketch modifying features (cut, trim, mirror, move, etc.,) to edit the sketch.
+3. Use the Dimension (D) command to assign accurate measurements to the rectangle. Ensure that the length is 52 mm and the width is 40 mm before completing the sketch.
 
-![image](https://user-images.githubusercontent.com/113594316/198825282-0d3de4b8-b6d9-446a-ae2a-461955057399.png)
+4. Click Finish Sketch, select the Extrude command and provide an extrusion dimension of 32 mm. Choose the Join operation to create the main solid rectangular body.
 
-5.	Use inspect feature to measure the dimensions of sketch.
+5. Select the front face of the solid body and click Create Sketch. Use the Line and Rectangle tools to draw the fork-shaped opening with the required dimensions.
 
-![image](https://user-images.githubusercontent.com/113594316/198825301-194365b4-69d2-42ad-8545-a68d3ca1f442.png)
+6. Apply the Dimension (D) command to specify the fork slot width as 18 mm. Position the sketch accurately and ensure that both fork arms have the required thickness.
 
-6.	After finishing the sketch use finish sketch option to finalize the sketch.
+7. Click Finish Sketch, select the Extrude command and choose the Cut operation. Remove the required material to create the central opening between the two fork arms.
 
-![image](https://user-images.githubusercontent.com/113594316/198825314-b90f6aba-da26-4f0d-8d61-a03e8ad0d765.png)
+8. Select the rounded front edges of both fork arms and use the Fillet command. Specify a suitable radius to create the curved ends according to the given engineering drawing.
 
-7.Use extrude option to convert 3D model from sketch
+9. Select the side face of the fork and choose Create Sketch. Use the Center Diameter Circle tool to draw a circular profile with a diameter of 16 mm.
 
-![image](https://user-images.githubusercontent.com/113594316/198825328-205fac21-1322-4d67-894b-6fd92e454e26.png)
+10. Use the Dimension (D) command to position the circular profile accurately. Maintain a distance of 17 mm from the front end and align the circle with the centre of the body height.
 
-8.Use revolve option to convert 2D to 3D.
+11. Click Finish Sketch, select Extrude and choose the Cut operation. Select Through All to remove material and create aligned circular holes through both fork arms.
 
-![image](https://user-images.githubusercontent.com/113594316/198825337-455049de-f053-48b8-9dd0-ebeb189c0dde.png)
+12. Select the rear face of the main body and create a new sketch. Use the Center Diameter Circle tool to draw a circle with a diameter of 18 mm at the centre.
 
+13. Apply the Dimension (D) command to define the circle diameter accurately. Ensure that the circular profile is positioned at the centre of the rear face.
+
+14. Click Finish Sketch, select Extrude and enter a length dimension of 32 mm. Choose the Join operation to create the cylindrical shaft connected to the main body.
+
+15. Use the Trim (T) command wherever necessary while editing sketches to remove unwanted lines and overlapping sketch portions, ensuring that the required profiles remain.
+
+16. Apply the Fillet command to the necessary sharp edges and provide suitable radius values. This improves the appearance and gives the component a smooth finished shape.
+
+17. Use the Sketch Dimension, Radius and Diameter commands to verify all important measurements. Check the rectangular body, fork opening, circular holes and cylindrical shaft carefully.
+
+18. Finally, inspect the completed component using the Isometric View. Verify all dimensions and features, save the design and ensure that it matches the given engineering drawing.
 ## INPUT:
 ![image](https://user-images.githubusercontent.com/113594316/198825351-b514a4e7-06af-4ee0-8197-e8267749f8a8.png)
 
 ## OUTPUT:
+<img width="961" height="661" alt="image" src="https://github.com/user-attachments/assets/d81536ce-4d6a-42b7-a324-c9a45b70f95c" />
 
 ## RESULT:
 
